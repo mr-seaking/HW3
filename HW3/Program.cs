@@ -44,7 +44,6 @@ for (int i = 0; num != "q";)
             case ("3"):
                 Console.WriteLine("выход");
                 goto end;
-                break;
         }
     }
     Console.Write("введите число (q - выход): ");
