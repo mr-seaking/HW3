@@ -20,7 +20,7 @@ for (int i = 0; num != "q";)
     {
         Console.WriteLine("ввели не число! ");
         errs.Add(num);
-        num = null;
+        //num = null;
 
         Console.WriteLine("1 - продолжить");
         Console.WriteLine("2 - очистить");
@@ -32,6 +32,7 @@ for (int i = 0; num != "q";)
         {
             case ("1"):
                 Console.WriteLine("продолжайте ввод");
+                num = null;
                 break;
 
             case ("2"):
